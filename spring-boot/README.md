@@ -57,8 +57,8 @@ Hello Phil
 
 ### Spring Boot goodness
 
-- Pretty damn quick to get up and running compared to most other java frameworks and projects, thanks to example-based documentation
-- 
+- Pretty quick to get up and running compared to most other java frameworks and projects, thanks to example-based documentation
+- Magic is frequently nice - lot of stuff comes for free, or without having to figure out how xyz works
 
 ### Spring Boot documentation
 - Seriously lacking documentation in some areas - for instance, how to build a web app! Also, 'usecase' driven documentation means that if your docume

@@ -1,0 +1,3 @@
+[submodule "spring-stripped"]
+	path = spring-stripped
+	url = https://github.com/jadekler/git-spring-websiteskeleton.git
