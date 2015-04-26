@@ -47,4 +47,4 @@ bar
     - [Apache Ant](http://ant.apache.org/) is the oldest - built on the back of the eclipse IDE. Nice in 2003, not so nice these days
     - [Maven](http://maven.apache.org/plugins/maven-compiler-plugin/) is newer - built to handle dependency management very similarly to how centralized repos and Gemfiles in ruby work, plus a whole bunch of extra junk (task management, property config at compile time, etc). Suffers from bloat, xml-y mystery tags and general badness, and pretty weak documentation
     - [Gradle](https://gradle.org/) is the latest - basically a 1:1 rebuild of maven but written in groovy (allows you to write your own task / build code easily as opposed to xml config) and json, with much newer documentation. Suffers from very slow community adoption (typically find a solution to your problem for maven and have to bootstrap to gradle)
-    - Recommend gradle, but whatever you choose try to avoid ant. So bad.
+    - Recommend gradle, but whatever you choose try to avoid ant
