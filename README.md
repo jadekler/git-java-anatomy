@@ -31,30 +31,30 @@ Idea:
      
     <Configure class="org.eclipse.jetty.webapp.WebAppContext">
 
-    <Set name="contextPath">/</Set>
-    <Set name="war"><Property name="jetty.home" default="." />/path/to/my/app.war</Set>
+        <Set name="contextPath">/</Set>
+        <Set name="war"><Property name="jetty.home" default="." />/path/to/my/app.war</Set>
 
-    <New id="foo" class="org.eclipse.jetty.plus.jndi.EnvEntry">
-        <Arg>foo</Arg>
-        <Arg type="java.lang.String">"some config thing"</Arg>
-    </New>
-
-    <New id="bar" class="org.eclipse.jetty.plus.jndi.EnvEntry">
-        <Arg>bar</Arg>
-        <Arg type="java.lang.Double">55.0</Arg>
-    </New>
-
-    <!-- an XADataSource                                                -->
-    <New id="mydatasource99" class="org.eclipse.jetty.plus.jndi.Resource">
-        <Arg>jdbc/mydatasource99</Arg>
-        <Arg>
-        <New class="com.atomikos.jdbc.SimpleDataSourceBean">
-            <Set name="xaDataSourceClassName">org.apache.derby.jdbc.EmbeddedXADataSource</Set>
-            <Set name="xaDataSourceProperties">databaseName=testdb99;createDatabase=create</Set>
-            <Set name="UniqueResourceName">mydatasource99</Set>
+        <New id="foo" class="org.eclipse.jetty.plus.jndi.EnvEntry">
+            <Arg>foo</Arg>
+            <Arg type="java.lang.String">"some config thing"</Arg>
         </New>
-        </Arg>
-    </New>
+
+        <New id="bar" class="org.eclipse.jetty.plus.jndi.EnvEntry">
+            <Arg>bar</Arg>
+            <Arg type="java.lang.Double">55.0</Arg>
+        </New>
+
+        <!-- an XADataSource                                                -->
+        <New id="mydatasource99" class="org.eclipse.jetty.plus.jndi.Resource">
+            <Arg>jdbc/mydatasource99</Arg>
+            <Arg>
+            <New class="com.atomikos.jdbc.SimpleDataSourceBean">
+                <Set name="xaDataSourceClassName">org.apache.derby.jdbc.EmbeddedXADataSource</Set>
+                <Set name="xaDataSourceProperties">databaseName=testdb99;createDatabase=create</Set>
+                <Set name="UniqueResourceName">mydatasource99</Set>
+            </New>
+            </Arg>
+        </New>
      
     </Configure>
     ```
