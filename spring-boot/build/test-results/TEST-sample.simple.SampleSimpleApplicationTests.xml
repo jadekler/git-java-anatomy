@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sample.simple.SampleSimpleApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-04-26T20:31:39" hostname="Jeans-MacBook-Pro.local" time="0.929">
+  <properties/>
+  <testcase name="testDefaultSettings" classname="sample.simple.SampleSimpleApplicationTests" time="0.776"/>
+  <testcase name="testCommandLineOverrides" classname="sample.simple.SampleSimpleApplicationTests" time="0.153"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.3.0.BUILD-SNAPSHOT)
+
+2015-04-26 14:31:39.423  INFO 39495 --- [    Test worker] sample.simple.SampleSimpleApplication    : Starting SampleSimpleApplication on Jeans-MacBook-Pro.local with PID 39495 (/Users/jadekler/workspace/git-java-anatomy/spring-boot/build/classes/main started by jadekler in /Users/jadekler/workspace/git-java-anatomy/spring-boot)
+2015-04-26 14:31:39.452  INFO 39495 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@48e1bc77: startup date [Sun Apr 26 14:31:39 MDT 2015]; root of context hierarchy
+2015-04-26 14:31:39.915  INFO 39495 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+Hello Phil
+2015-04-26 14:31:39.924  INFO 39495 --- [    Test worker] sample.simple.SampleSimpleApplication    : Started SampleSimpleApplication in 0.664 seconds (JVM running for 1.284)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.3.0.BUILD-SNAPSHOT)
+
+2015-04-26 14:31:39.947  INFO 39495 --- [    Test worker] sample.simple.SampleSimpleApplication    : Starting SampleSimpleApplication on Jeans-MacBook-Pro.local with PID 39495 (/Users/jadekler/workspace/git-java-anatomy/spring-boot/build/classes/main started by jadekler in /Users/jadekler/workspace/git-java-anatomy/spring-boot)
+2015-04-26 14:31:39.949  INFO 39495 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c107f64: startup date [Sun Apr 26 14:31:39 MDT 2015]; root of context hierarchy
+2015-04-26 14:31:40.075  INFO 39495 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+Hello Gordon
+2015-04-26 14:31:40.078  INFO 39495 --- [    Test worker] sample.simple.SampleSimpleApplication    : Started SampleSimpleApplication in 0.148 seconds (JVM running for 1.438)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

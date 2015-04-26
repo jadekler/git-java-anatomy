@@ -41,3 +41,33 @@ Hello Phil
 ```
 
 ![](http://s2.quickmeme.com/img/69/69fbf7240f42620c870bdc173856ead82781e930db2ac505e941931fc2c24ea1.jpg)
+
+### Gradle niceties
+
+- Super easy to define your own tasks
+- Dependencies are auto-downloaded from pre-specified repositories whenever they're needed by a task (like `gradle build`)
+- `gradle build` - boom! a jar, ready to for deployment
+- Other nice tasks: `gradle clean`, `gradle test`, `gradle dependenciesGraph` etc. (the former is a plugin you can install)
+
+### Spring Boot pain points
+
+- Spring boot is loaded with defaults. If you're at all interested in making an app that doesn't very closesly fit the springboot way, you're in for a bad time
+- Lots and lots of magic via annotations and extension. Your setup may run smoothly 90% of the time developing but the 10% of problem solving might *suck*
+- The amount of spring knowledge you have to know rises quickly, and you may find yourself requiring new devs to be 'spring' developers moreso than 'java' developers
+
+### Spring Boot goodness
+
+- Pretty damn quick to get up and running compared to most other java frameworks and projects, thanks to example-based documentation
+- 
+
+### Spring Boot documentation
+- Seriously lacking documentation in some areas - for instance, how to build a web app! Also, 'usecase' driven documentation means that if your docume
+- Usecase style documentation
+    - Super, super nice set of examples written with both gradle and maven in mind
+    - Great if your case matches, otherwise bad times
+    - Very, very biased (e.x. of the few 'webapp' examples, thymeleaf templating is exclusively used - good luck trying to get JSPs compiled!)
+- Huuuuuuuuuge breadth of topics and complete lack of deprecation
+    - You'll search for a solution and find yourself looking at two solutions going, 'Wait, what? What is the different between spring REST and spring HATEOS??'
+    - You'll find solutions from 2009 that sort-of do sort-of don't match your problem... ALL THE TIME
+    - You'll start using a part of spring only to realize spring-boot 100% does not support it
+- Spring team is very dedicated to keeping their documentation up to date

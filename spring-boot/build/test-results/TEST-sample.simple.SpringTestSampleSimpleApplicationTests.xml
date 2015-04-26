@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sample.simple.SpringTestSampleSimpleApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-04-26T20:31:40" hostname="Jeans-MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="testContextLoads" classname="sample.simple.SpringTestSampleSimpleApplicationTests" time="0.001"/>
+  <system-out><![CDATA[2015-04-26 14:31:40.112  INFO 39495 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2015-04-26 14:31:40.115  INFO 39495 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2015-04-26 14:31:40.115  INFO 39495 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2015-04-26 14:31:40.115  INFO 39495 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2015-04-26 14:31:40.116  INFO 39495 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@387c2af4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@352106d]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.3.0.BUILD-SNAPSHOT)
+
+2015-04-26 14:31:40.152  INFO 39495 --- [    Test worker] o.s.boot.SpringApplication               : Starting application on Jeans-MacBook-Pro.local with PID 39495 (/Users/jadekler/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.0.BUILD-SNAPSHOT/a37863f0256af0ae3c08591d30555d96afe1032/spring-boot-1.3.0.BUILD-SNAPSHOT.jar started by jadekler in /Users/jadekler/workspace/git-java-anatomy/spring-boot)
+2015-04-26 14:31:40.154  INFO 39495 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@14212216: startup date [Sun Apr 26 14:31:40 MDT 2015]; root of context hierarchy
+Hello Phil
+2015-04-26 14:31:40.265  INFO 39495 --- [    Test worker] o.s.boot.SpringApplication               : Started application in 0.134 seconds (JVM running for 1.625)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
