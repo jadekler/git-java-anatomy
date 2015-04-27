@@ -53,9 +53,9 @@ Walk through from:
 Let's make a spring app in which we can:
 
 - Pick-and-choose what your app relies on based on what it *needs* and not what slides in easiest / comes by default
-- Less magic = lower learning curve = easier to get people onto the project
-- Component style (similar to ruby engines) allows an app to scale well, and multiple apps to share components
-- No `main()` method (remember trying to test main in go?)
+- Have less magic = lower learning curve = easier to get people onto the project
+- Adopt a component style (similar to ruby engines) to allow our app to scale well, and have multiple apps to share components
+- Avoid using a `main()` method (remember trying to test main in go?)
 
 # End result: stripped spring program
 
