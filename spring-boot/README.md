@@ -49,17 +49,6 @@ Hello Phil
 - `gradle build` - boom! a jar, ready to for deployment
 - Other nice tasks: `gradle clean`, `gradle test`, `gradle dependenciesGraph` etc. (the former is a plugin you can install)
 
-### Spring Boot pain points
-
-- Spring boot is loaded with defaults. If you're at all interested in making an app that doesn't very closesly fit the springboot way, you're in for a bad time
-- Lots and lots of magic via annotations and extension. Your setup may run smoothly 90% of the time developing but the 10% of problem solving might *suck*
-- The amount of spring knowledge you have to know rises quickly, and you may find yourself requiring new devs to be 'spring' developers moreso than 'java' developers
-
-### Spring Boot goodness
-
-- Pretty quick to get up and running compared to most other java frameworks and projects, thanks to example-based documentation
-- Magic is frequently nice - lot of stuff comes for free, or without having to figure out how xyz works
-
 ### Spring Boot documentation
 - Seriously lacking documentation in some areas - for instance, how to build a web app! Also, 'usecase' driven documentation means that if your docume
 - Usecase style documentation
